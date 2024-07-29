@@ -31,6 +31,8 @@ Cette documentation explique comment utiliser l'API AdonisJS pour créer un util
 
 Pour démarrer l'application, utilisez la commande suivante :
 
+- **node ace generate:key**
+- **node ace migration:run**
 - **node ace serve**
 
 ## Routes disponibles
@@ -44,7 +46,7 @@ Pour démarrer l'application, utilisez la commande suivante :
 ### 2. Créer un utilisateur
 
 - **Méthode HTTP**: POST
-- **URL**: `/`
+- **URL**: `/users`
 - **Description**: Cette route permet de créer un utilisateur.
 
 #### Exemple de requête
