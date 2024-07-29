@@ -31,9 +31,11 @@ Cette documentation explique comment utiliser l'API AdonisJS pour créer un util
 
 Pour démarrer l'application, utilisez la commande suivante :
 
-- **node ace generate:key**
-- **node ace migration:run**
-- **node ace serve**
+```bash
+  node ace generate:key
+  node ace migration:run
+  node ace serve
+```
 
 ## Routes disponibles
 
